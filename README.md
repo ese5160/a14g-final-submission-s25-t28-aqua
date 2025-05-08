@@ -153,10 +153,12 @@ The vibration motor was successfully integrated and configured to trigger hydrat
 ### Software
 
 SRS01 (Data and Visualization):
-We developed a smartphone application that successfully displays real-time data, including hydration status, water temperature, and TDS levels. The app receives this information via Wi-Fi from the SAMW25 microcontroller. During testing, data was displayed promptly and accurately, fulfilling this requirement.
+We developed a smartphone application that successfully displays real-time data, including hydration status, water temperature, and TDS levels. The app receives this information via Wi-Fi from the SAMW25 microcontroller. During testing, data was displayed promptly and accurately, fulfilling this requirement. 
+![data](data.jpg)
 
 SRS02 (Control):
-The application provides users with the ability to configure system settings, including hydration goals, enabling/disabling reminders, and customizing LED notifications. All settings could be updated and applied in real time, confirming that this control functionality was fully implemented.
+The application provides users with the ability to configure system settings, including hydration goals, enabling/disabling reminders, and customizing LED notifications. All settings could be updated and applied in real time, confirming that this control functionality was fully implemented.We were also able to implement CLI commands.
+![CLI](Cli.jpg)
 
 SRS03 (Data Monitoring and Logging):
 We used a cloud-based database (Firebase) to store sensor data such as temperature, TDS, and water usage history. The data was logged with timestamps and could be accessed later for review. This logging feature functioned reliably and meets the requirement.
