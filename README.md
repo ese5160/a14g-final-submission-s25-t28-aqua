@@ -69,7 +69,17 @@ For the FreeRTOS memory issues, we made our firmware more modular, ensuring that
 
 #### What lessons did you learn by building and testing this prototype?
 
+System Integration: Integrating temperature, pressure, TDS, and motion sensors into one system was challenging. We faced task conflicts and resource issues, which taught us the importance of clear architecture and task scheduling.
 
+Protocols & Real-Time Operation: We gained hands-on experience with SPI, I2C, FreeRTOS, and CLI commands. Using Node-RED, we enabled real-time data monitoring through a web interface.
+
+Hardware & Power: Testing highlighted the value of modular design and power management—both critical for battery-powered devices like our smart bottle.
+
+User Interaction: Motion detection helped us remind users to drink water, and real-world testing taught us how environment and behavior impact performance.
+
+Team Collaboration: We improved our teamwork, task division, and problem-solving—spending many late nights helping each other and learning together.
+
+Future Improvements: In the next iteration, we’d emphasize modular design, start user testing earlier, and improve sensor error handling.
 
 #### What We Would Do Differently
 
@@ -84,7 +94,9 @@ We have implemented the entire project and our next step would be to implement a
 
 #### What did you learn in ESE5160 through the lectures, assignments, and this course-long prototyping project?
 
+In ESE5160, we gained extensive knowledge about embedded systems and learned the full process from ideation to chip design, manufacturing, and real-world application. Throughout the course, we became proficient with communication protocols such as SPI and I2C, learned to work with FreeRTOS, and implemented command-line interfaces (CLI) to control devices. We also explored how to design interactive dashboards using tools like Node-RED for real-time data visualization and device management.
 
+Beyond technical skills, we learned how to effectively collaborate on group projects — from dividing tasks to integrating each member's work into a functioning system. One of the most memorable aspects of this course was the time we spent in the lab with friends, working through late nights filled with challenges, teamwork, and mutual support. These experiences not only helped us grow as engineers but also built strong connections within our team.
 
 ### Project Links
 
@@ -101,6 +113,7 @@ We successfully designed a custom PCB featuring the SAMW25 microcontroller and i
 
 HRS02 (Temperature Sensor):
 The temperature sensor was tested by comparing its readings with a calibrated digital thermometer at room temperature. The sensor showed excellent accuracy under these conditions, with a measured error margin of only ±0.9°C.
+
 <iframe
 +  width="315"
 +  height="560"
@@ -110,7 +123,6 @@ The temperature sensor was tested by comparing its readings with a calibrated di
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
 ></iframe>
-
 
 HRS03 (Construction):
 We used a BPA-free cylindrical water bottle with a 500ml capacity and designed a custom 3D-printed enclosure to house all electronics.
@@ -166,30 +178,52 @@ Although we implemented a function to disable the UV LED when the cap is opened,
 
 ## 4. Project Photos & Screenshots
 
-Our final project: ![final_project](final.jpg)
+Our final project:
+![final_project](final.jpg)
 
-Our 2D PCB top ![pcb_top](pcb_top.png)
+Our 2D PCB top:
+![pcb_top](pcb_top.png)
 
-Our 2D PCB bottom: ![pcb_bottom](pcb_bottom.png)
+Our 2D PCB bottom:
+![pcb_bottom](pcb_bottom.png)
 
-Our 3D PCB top ![pcb_top](pcb3top.png)
+Our 3D PCB top:
+![pcb_top](pcb3top.png)
 
-Our 3D PCB bottom: ![pcb_bottom](pcb3bottom.png)
+Our 3D PCB bottom:
+![pcb_bottom](pcb3bottom.png)
 
-Out thermal photo of boost circuit: ![thermal_boot](thermal_boot.jpeg)
+Out thermal photo of boost circuit:
+![thermal_boot](thermal_boost.jpeg)
 
-Out thermal photo of buck circuit: ![thermal_buck](thermal_buck.jpeg)
+Out thermal photo of buck circuit:
+![thermal_buck](thermal_buck.jpeg)
 
-Our front look of nod website: ![node_front](nod_for.png)
+Our front look of nod website:
+![node_front](nod_for.png)
 
-Our back look of nod website: ![node_back](node_back.png)  ![nod_back2](nod_back2.png)
+Our back look of nod website:
+![node_back](node_back.png)  ![nod_back2](nod_back2.png)
 
-Our PCBA front side:![front_side](front.jpg)
+Our PCBA front side:
+![front_side](front.jpg)
 
-Our PCBA bottom side: ![bottom_side](bottom.jpg)
+Our PCBA bottom side:
+ ![bottom_side](bottom.jpg)
 
-The block diagram is shown below. ![block_system](block_system.jpg)
+The block diagram is shown below.
+ ![block_system](block_system.jpg)
 
+## 5. Demo Day
+
+Our class:
+![ESE516](Team.png)
+
+Our team :
+![Aqua](Demo.png)
+
+Awards: Winning Lutron Award for Best Integration - 3st Place
+![Award](award.jpg)
 
 ## Codebase
 
