@@ -10,7 +10,9 @@
 
 ## 1. Video Presentation
 
-Our video is shown below:
+Here is our video:
+
+
 [![AQUA](https://img.youtube.com/vi/58vd1mUXhNk/0.jpg)](https://www.youtube.com/watch?v=58vd1mUXhNk)
 
 ## 2. Project Summary
@@ -153,7 +155,7 @@ The vibration motor was successfully integrated and configured to trigger hydrat
 ### Software
 
 SRS01 (Data and Visualization):
-We developed a smartphone application that successfully displays real-time data, including hydration status, water temperature, and TDS levels. The app receives this information via Wi-Fi from the SAMW25 microcontroller. During testing, data was displayed promptly and accurately, fulfilling this requirement. 
+We developed a smartphone application that successfully displays real-time data, including hydration status, water temperature, and TDS levels. The app receives this information via Wi-Fi from the SAMW25 microcontroller. During testing, data was displayed promptly and accurately, fulfilling this requirement.
 ![data](data.jpg)
 
 SRS02 (Control):
